@@ -1,0 +1,11 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "app_name": "Phoenix 2009",
+  "theme_toggle_label": "смени темата",
+  "meta_title": "Phoenix 2009",
+  "meta_description": "Пример за първи текст в сайта.",
+  "starter_template_headline": "Phoenix 2009 сайт на български",
+  "starter_template_description": "Пример за първи текст в сайта.",
+  "get_started": "Започни",
+  "github": "Github"
+}
