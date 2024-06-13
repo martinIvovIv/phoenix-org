@@ -12,10 +12,6 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    env:
-      APP_URL: ${{ secrets.APP_URL }}
-      GITHUB_ID: ${{ secrets.AUTH_GITHUB_ID }}
-      GITHUB_SECRET: ${{ secrets.AUTH_GITHUB_SECRET }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -30,4 +26,4 @@ jobs:
         with:
           name: playwright-report
           path: playwright-report/
-          retention-days: 30
+          retention-days: 10
