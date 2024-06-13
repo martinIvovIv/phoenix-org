@@ -9,6 +9,8 @@ export const AudioPlayerComponent = () => {
     <AudioPlayer
       src="/FireBirds.wav"
       volume={0.5}
+      showFilledVolume
+      showDownloadProgress
       // other props here
     />
   );
