@@ -8,6 +8,6 @@ export const siteConfig = {
     // m.meta_keyword_example(),
     m.meta_title(),
   ],
-  url: () => env.APP_URL,
+  url: () => env.APP_URL || 'https://example.com',
   googleSiteVerificationId: () => env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
