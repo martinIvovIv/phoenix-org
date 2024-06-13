@@ -6,15 +6,8 @@ import * as m from '@/paraglide/messages';
 const Home = () => {
   return (
     <section className="container flex flex-col items-center gap-3 py-10">
-      {/* <h1 className="mb-1 font-mono text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-        {m.starter_template_headline()}
-      </h1>
-      <p className="text-muted-foreground max-w-2xl">
-        {m.starter_template_description()}
-      </p> */}
-
       <TextBox>
-        <video width="100%" controls preload="none">
+        <video width="100%" controls preload="metadata">
           <source src="/PhoenixIntro.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -36,7 +29,7 @@ const Home = () => {
       </TextBox>
 
       <TextBox>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-3">
           <p className="font-semibold">{m.og_home_song_title()}</p>
           <AudioPlayerComponent />
 
