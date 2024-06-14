@@ -1,6 +1,5 @@
 import { AudioPlayerComponent } from '@/components/audio-player';
 import { TextBox } from '@/components/ui/text-box';
-// import { VPlayer } from '@/components/VPlayer';
 import * as m from '@/paraglide/messages';
 
 const Home = () => {
