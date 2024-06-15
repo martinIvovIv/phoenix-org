@@ -15,7 +15,7 @@ const Home = () => {
       <TextBox>{m.og_home_p_one()}</TextBox>
       <TextBox>
         <div className="flex flex-col gap-2">
-          <p>{m.og_home_p_label_of_ul()}</p>
+          <h3>{m.og_home_p_label_of_ul()}</h3>
           <ul className="list-inside list-disc">
             <li>{m.og_home_li_one()}</li>
             <li>{m.og_home_li_two()}</li>

@@ -1,12 +1,13 @@
 import { Icons } from '@/components/icons';
+import { Heading } from '@/components/ui/heading';
 import { TextBox } from '@/components/ui/text-box';
 import * as m from '@/paraglide/messages';
 
 const Contacts = () => {
   return (
     <section className="container flex flex-col items-center gap-3 py-4 sm:py-5 md:py-7 lg:py-8">
-      <TextBox className="text-xl font-extrabold  md:text-2xl md:tracking-wide lg:text-3xl">
-        <h1>{m.contect_us_page_header()}</h1>
+      <TextBox>
+        <Heading>{m.contect_us_page_header()}</Heading>
       </TextBox>
       <TextBox>
         <div>
