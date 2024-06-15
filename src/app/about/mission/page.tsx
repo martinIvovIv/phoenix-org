@@ -5,7 +5,7 @@ import * as m from '@/paraglide/messages';
 const Mission = () => {
   return (
     <section className="container flex flex-col items-center gap-3 py-4 sm:py-5 md:py-7 lg:py-8">
-      <TextBox className="flex flex-col gap-4">
+      <TextBox className="flex flex-col gap-3 md:gap-4">
         <Heading>{m.about_us_mission_about_heading_one()}</Heading>
         <p>{m.about_us_mission_about_p_one()}</p>
         <p>{m.about_us_mission_about_p_two()}</p>
@@ -17,7 +17,7 @@ const Mission = () => {
           <p>{m.about_us_mission_about_p_seven()}</p>
         </div>
       </TextBox>
-      <TextBox className="flex flex-col gap-4">
+      <TextBox className="flex flex-col gap-3 md:gap-4">
         <Heading>{m.about_us_mission_about_heading_two()}</Heading>
         <p>{m.about_us_mission_about_p_two_one()}</p>
         <div className="flex flex-col gap-1">

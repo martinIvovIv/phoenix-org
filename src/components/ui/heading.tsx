@@ -10,7 +10,7 @@ export const Heading = ({
   return (
     <h1
       className={cn(
-        'text-xl font-extrabold  md:text-2xl md:tracking-wide lg:text-3xl',
+        'text-xl font-extrabold md:text-2xl md:tracking-wide lg:text-3xl',
         className
       )}
     >
