@@ -4,7 +4,7 @@ import * as m from '@/paraglide/messages';
 
 const FenixJunior = () => {
   return (
-    <section className="container flex flex-col items-center gap-3 py-10">
+    <section className="container flex flex-col items-center gap-3 py-4 sm:py-5 md:py-7 lg:py-8">
       <TextBox>{m.fenix_jnr_p_one()}</TextBox>
       <TextBox>{m.fenix_jnr_p_two()}</TextBox>
       <TextBox>{m.fenix_jnr_p_three()}</TextBox>

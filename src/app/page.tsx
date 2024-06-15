@@ -4,7 +4,7 @@ import * as m from '@/paraglide/messages';
 
 const Home = () => {
   return (
-    <section className="container flex flex-col items-center gap-3 py-10">
+    <section className="container flex flex-col items-center gap-3 py-4 sm:py-5 md:py-7 lg:py-8">
       <TextBox>
         <video width="100%" controls preload="metadata">
           <source src="/PhoenixIntro.mp4" type="video/mp4" />
