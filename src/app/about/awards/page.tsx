@@ -90,23 +90,16 @@ const Awards = () => {
         <Heading>{m.play_rewards()}</Heading>
       </TextBox>
 
-      <TextBox className="flex flex-col gap-2 md:gap-4">
-        <h2 className="text-lg font-bold leading-tight tracking-tight md:text-xl lg:text-2xl">
-          {m.play_one()}
-        </h2>
-        <div className="flex flex-col gap-1 ">
-          <p className="leading-tight">{m.play_one_event_one()}</p>
-          <p className="font-semibold tracking-wide">
-            {m.play_one_event_one_award()}
-          </p>
-        </div>
-        <div className="flex flex-col gap-1 ">
-          <p className="leading-tight">{m.play_one_event_two()}</p>
-          <p className="font-semibold tracking-wide">
-            {m.play_one_event_two_award()}
-          </p>
-        </div>
-      </TextBox>
+      <Competition title={m.play_one()}>
+        <EventAndAward
+          event={m.play_one_event_one()}
+          award={m.play_one_event_one_award()}
+        />
+        <EventAndAward
+          event={m.play_one_event_two()}
+          award={m.play_one_event_two_award()}
+        />
+      </Competition>
 
       <Competition title={m.play_two()}>
         <EventAndAward
