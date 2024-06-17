@@ -7,6 +7,7 @@ import {
   Moon,
   Phone,
   Sun,
+  Trophy,
 } from 'lucide-react';
 
 export const Icons = {
@@ -17,6 +18,7 @@ export const Icons = {
   menu: Menu,
   phone: Phone,
   email: Mail,
+  badge: Trophy,
   youtube: (props: LucideProps) => (
     <svg viewBox="0 0 24 24" {...props}>
       <path
