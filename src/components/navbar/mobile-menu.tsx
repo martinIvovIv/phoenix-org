@@ -8,10 +8,15 @@ import { Icons } from '../icons';
 import { Button } from '../ui/button';
 
 import { cn } from '@/lib/utils';
+import * as m from '@/paraglide/messages';
 
 const HOME_PATH = '/';
+const ABOUT_MISSION = '/about/mission';
+const GALLERY = '/gallery';
+const JUNIOR = '/junior';
+const CONTACTS = '/contacts';
 
-export const MobileMenu = ({ className }: { className: string }) => {
+export const MobileMenu = ({ className }: { className?: string }) => {
   const pathname = usePathname();
 
   return (
@@ -36,7 +41,45 @@ export const MobileMenu = ({ className }: { className: string }) => {
                   'font-bold underline underline-offset-2'
               )}
             >
-              <DropdownMenu.Item>Home</DropdownMenu.Item>
+              <DropdownMenu.Item>{m.og_nav_beginning_home()}</DropdownMenu.Item>
+            </Link>
+            <Link
+              href={ABOUT_MISSION}
+              className={cn(
+                'py-2 pl-3 pr-4 text-center',
+                pathname === ABOUT_MISSION &&
+                  'font-bold underline underline-offset-2'
+              )}
+            >
+              <DropdownMenu.Item>{m.og_nav_about_us()}</DropdownMenu.Item>
+            </Link>
+            <Link
+              href={GALLERY}
+              className={cn(
+                'py-2 pl-3 pr-4 text-center',
+                pathname === GALLERY && 'font-bold underline underline-offset-2'
+              )}
+            >
+              <DropdownMenu.Item>{m.og_nav_gallery()}</DropdownMenu.Item>
+            </Link>
+            <Link
+              href={JUNIOR}
+              className={cn(
+                'py-2 pl-3 pr-4 text-center',
+                pathname === JUNIOR && 'font-bold underline underline-offset-2'
+              )}
+            >
+              <DropdownMenu.Item>{m.og_nav_fenix_junior()}</DropdownMenu.Item>
+            </Link>
+            <Link
+              href={CONTACTS}
+              className={cn(
+                'py-2 pl-3 pr-4 text-center',
+                pathname === CONTACTS &&
+                  'font-bold underline underline-offset-2'
+              )}
+            >
+              <DropdownMenu.Item>{m.og_nav_contact_us()}</DropdownMenu.Item>
             </Link>
           </DropdownMenu.Content>
         </DropdownMenu.Portal>

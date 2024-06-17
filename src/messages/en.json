@@ -51,7 +51,7 @@
     "contect_us_page_mobile": "Mobile Phones:",
     "contect_us_page_mobile_one": "0895 / 931 888 - Plamena Yankova",
     "contect_us_page_mobile_two": "0886 / 405 384 - Ivan Mihaylov",
-    "contect_us_page_email": "Email",
+    "contect_us_page_email": "Email:",
     "contect_us_page_email_one": "phoenix2009@mail.bg",
     "contect_us_page_facebook": "Facebook:",
     "contect_us_page_facebook_one": "https://www.facebook.com/sfeniks",
@@ -63,7 +63,9 @@
     "fenix_jnr_p_three": "Our current goal is not just to continue fighting for the integration of people with various special needs, but to achieve a sustainable, secure, and stable environment. The youth theatrical formation called 'Phoenix Junior' is open to anyone who wants to learn about our work, join as an artist, member of the association, volunteer, or specialist-mentor.",
     "fenix_jnr_p_four": "The implementation of Phoenix Junior's first project is about to happen soon.",
     "fenix_jnr_p_five": "Here is the path we have all walked together and continue to walk, along with the team of specialists, volunteers, and participating youth with and without disabilities.",
-    "fenix_jnr_p_six": "You can also follow us on the project's Facebook page: www.facebook.com/fenixJunior or get in touch with us!",
+    "fenix_jnr_p_six_one": "You can also follow us on the project's ",
+    "fenix_jnr_p_six_link": "Facebook page: www.facebook.com/fenixJunior",
+    "fenix_jnr_p_six_two": " or get in touch with us!",
     "fenix_jnr_bold_seven": "'Be Yourself! Be Different! Be Phoenix!'",
   
     "about_us_mission_about_heading_one": "About Us: Mission, Cause, and Origin",
@@ -262,6 +264,6 @@
     
     "project_fifteen": "Project: “Theatrical Formation PHOENIX - Reloaded”;",
     "project_fifteen_time": "Implementation period: November 01, 2022, to October 31, 2023;",
-    "project_fifteen_finance_by": "Funding source: Sofia Municipality, National Culture Fund, under the program for the recovery and development of organizations in the field of amateur creativity."
- 
+    "project_fifteen_finance_by": "Funding source: Sofia Municipality, National Culture Fund, under the program for the recovery and development of organizations in the field of amateur creativity.",
+    "projects_heading": "Completed Projects"
 }
