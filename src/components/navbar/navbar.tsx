@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 import { ThemeSwitcher } from '../theme-switcher';
 import { LanguageSwitcher } from './language-switcher';
 import { MobileMenu } from './mobile-menu';
@@ -15,7 +17,15 @@ export const Navbar = async () => {
   return (
     <header className="bg-fg w-full border-b">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex flex-row items-center  gap-2 text-base font-bold leading-relaxed  tracking-tight  sm:gap-3 md:gap-5 md:text-lg lg:gap-7 lg:text-xl">
+        <div className="flex flex-row items-center  gap-1.5 text-base font-bold leading-relaxed  tracking-tight  sm:gap-3 md:gap-5 md:text-lg lg:gap-7 lg:text-xl">
+          <Image
+            src="/favicon/android-chrome-192x192.png"
+            height={55}
+            width={55}
+            className="size-[55] object-contain"
+            alt={m.fenix_logo_alt()}
+            priority={true}
+          />
           <Link
             className="hidden hover:underline sm:inline-block"
             href={HOME_PATH}
@@ -24,7 +34,7 @@ export const Navbar = async () => {
           </Link>
           <Link
             href={ABOUT_MISSION}
-            className="hidden hover:underline sm:inline-block"
+            className="hidden whitespace-nowrap hover:underline sm:inline-block"
           >
             {m.og_nav_about_us()}
           </Link>
@@ -36,13 +46,13 @@ export const Navbar = async () => {
           </Link>
           <Link
             href={JUNIOR}
-            className="hidden hover:underline sm:inline-block"
+            className="hidden whitespace-nowrap hover:underline sm:inline-block"
           >
             {m.og_nav_fenix_junior()}
           </Link>
           <Link
             href={CONTACTS}
-            className="hidden hover:underline sm:inline-block"
+            className="hidden whitespace-nowrap hover:underline sm:inline-block"
           >
             {m.og_nav_contact_us()}
           </Link>
