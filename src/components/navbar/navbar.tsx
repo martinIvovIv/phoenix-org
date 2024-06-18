@@ -1,5 +1,6 @@
 import Image from 'next/image';
 
+import { AboutUsDropDown } from '../about-us-dropdown';
 import { ThemeSwitcher } from '../theme-switcher';
 import { LanguageSwitcher } from './language-switcher';
 import { MobileMenu } from './mobile-menu';
@@ -8,7 +9,7 @@ import { Link } from '@/lib/i18n';
 import * as m from '@/paraglide/messages';
 
 const HOME_PATH = '/';
-const ABOUT_MISSION = '/about/mission';
+// const ABOUT_MISSION = '/about/mission';
 const GALLERY = '/gallery';
 const JUNIOR = '/junior';
 const CONTACTS = '/contacts';
@@ -32,12 +33,7 @@ export const Navbar = async () => {
           >
             {m.og_nav_beginning_home()}
           </Link>
-          <Link
-            href={ABOUT_MISSION}
-            className="hidden whitespace-nowrap hover:underline sm:inline-block"
-          >
-            {m.og_nav_about_us()}
-          </Link>
+          <AboutUsDropDown />
           <Link
             href={GALLERY}
             className="hidden hover:underline sm:inline-block"
