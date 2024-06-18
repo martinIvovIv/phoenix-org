@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { Icons } from '@/components/icons';
 import { Heading } from '@/components/ui/heading';
 import { TextBox } from '@/components/ui/text-box';
@@ -34,9 +36,13 @@ const Contacts = () => {
             <Icons.facebook className="size-6" />
             <h2 className="font-bold">{m.contect_us_page_facebook()}</h2>
           </div>
-          <p className="overflow-auto break-words">
-            {m.contect_us_page_facebook_one()}
-          </p>
+          <Link
+            href={'https://www.facebook.com/sfeniks'}
+            target="_blank"
+            className="overflow-auto break-words underline underline-offset-4"
+          >
+            <p>{m.contect_us_page_facebook_one()}</p>
+          </Link>
         </div>
       </TextBox>
       <TextBox>
@@ -45,9 +51,13 @@ const Contacts = () => {
             <Icons.youtube className="size-6" />
             <h2 className="font-bold">{m.contect_us_page_youtube()}</h2>
           </div>
-          <p className="overflow-auto break-words">
-            {m.contect_us_page_youtube_one()}
-          </p>
+          <Link
+            href={'https://www.youtube.com/channel/UCISBoksxULAd04Avey4DPTQ'}
+            target="_blank"
+            className="overflow-auto break-words underline underline-offset-4"
+          >
+            <p>{m.contect_us_page_youtube_one()}</p>
+          </Link>
         </div>
       </TextBox>
     </section>
