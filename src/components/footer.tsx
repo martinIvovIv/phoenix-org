@@ -9,11 +9,15 @@ export const Footer = () => {
     <footer>
       <div className="bg-fg flex flex-col gap-2 pb-4 text-center">
         <Separator />
-        <h1>{m.og_footer_sponsors()}</h1>
+        <h1 className="text-xl font-bold tracking-wider">
+          {m.og_footer_sponsors()}
+        </h1>
         <Separator />
-        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+        <div className="flex flex-col items-center justify-center gap-5 sm:flex-row sm:gap-7">
           <div className="flex max-w-[270px] flex-row-reverse items-center justify-center gap-2 sm:flex-col">
-            <p>{m.municipality_of_varna()}</p>
+            <p className="text-lg font-semibold sm:leading-relaxed">
+              {m.municipality_of_varna()}
+            </p>
             <Image
               src="/Varna.png"
               height={150}
@@ -24,7 +28,9 @@ export const Footer = () => {
             />
           </div>
           <div className="flex max-w-[270px] flex-row-reverse items-center justify-center gap-2 sm:flex-col">
-            <p className="max-w-52 sm:max-w-fit">{m.vum_varna()}</p>
+            <p className="max-w-52 text-lg font-semibold sm:max-w-fit sm:leading-tight">
+              {m.vum_varna()}
+            </p>
             <Image
               src="/Vum.png"
               height={150}
@@ -35,7 +41,9 @@ export const Footer = () => {
             />
           </div>
           <div className="flex max-w-[270px] flex-row-reverse items-center justify-center gap-2 sm:flex-col">
-            <p>{m.fond_kultura_varna()}</p>
+            <p className="text-lg font-semibold sm:leading-relaxed">
+              {m.fond_kultura_varna()}
+            </p>
             <Image
               src="/FondCulture.jpg"
               height={150}
