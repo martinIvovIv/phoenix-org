@@ -27,8 +27,13 @@ export const MobileMenu = ({ className }: { className?: string }) => {
   return (
     <div className={cn('sm:hidden', className)}>
       <DropdownMenu.Root>
-        <DropdownMenu.Trigger asChild>
-          <Button variant="secondary" size="icon">
+        <DropdownMenu.Trigger asChild aria-label="navigation menu">
+          <Button
+            variant="secondary"
+            size="icon"
+            type="button"
+            // aria-label="navigation menu"
+          >
             <Icons.menu role="menu" />
           </Button>
         </DropdownMenu.Trigger>
