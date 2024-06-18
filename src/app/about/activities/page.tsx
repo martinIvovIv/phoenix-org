@@ -4,7 +4,6 @@ import { Heading } from '@/components/ui/heading';
 import { TextBox } from '@/components/ui/text-box';
 import * as m from '@/paraglide/messages';
 
-// TODO: translate image alt
 const Activities = () => {
   return (
     <section className="container flex flex-col items-center gap-3 py-4 sm:py-5 md:py-7 lg:py-8">
@@ -22,7 +21,7 @@ const Activities = () => {
           src="/HonorByVarna.jpg"
           width={567.75}
           height={834}
-          alt={'certificate from Varna municipality'}
+          alt={m.about_us_certificate_alt()}
           priority={true}
         />
       </TextBox>

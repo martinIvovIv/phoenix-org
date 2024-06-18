@@ -15,6 +15,7 @@ const FenixJunior = () => {
         <Link
           className="underline underline-offset-1 hover:underline-offset-2"
           href="https://www.facebook.com/fenixJunior"
+          target="_blank"
         >
           {m.fenix_jnr_p_six_link()}
         </Link>

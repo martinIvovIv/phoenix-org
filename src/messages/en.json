@@ -91,6 +91,7 @@
     "about_us_activities_p_two": "In addition to the theatrical formation, our association organizes various Art Bazaars featuring handmade souvenirs and other items crafted by our team. These bazaars often include items donated by other organizations and associations, which help us maintain our activities. We also actively participate in various campaigns to support different individuals, organizations, and initiatives. The association is socially active on issues affecting young people and people with various disabilities, related to their problems and societal inclusion. Our representatives' presence in various public councils to express our civic position is also part of our active activities and work. Therefore, we are constantly looking for new members and volunteers willing to join our team.",
     "about_us_activities_heading_two": "Achievements and Awards",
     "about_us_activities_p_two_one": "Since the inception of this idea in 2003 to its development today, we have won many awards with the support of our activities from the Youth House in Varna and the municipality of Varna. This is also the result of much work and effort by the entire team of numerous specialists supporting our activities. One of the most important and significant awards showing our success is the Honorary Badge 'For Merits to Varna - Silver'.",
+    "about_us_certificate_alt":"certificate from Varna municipality",
 
     "play_rewards": "Festivals and awards",
   
@@ -205,6 +206,9 @@
     "founders_p_one": "Svilen Stoyanov was born on October 5, 1957, in Shumen.",
     "founders_p_two": "He graduated from the National Academy for Theatre and Film Arts (NATFA) with a degree in 'Acting for Drama Theater' in the class of Prof. Encho Halachev in 1981. Immediately after, he was invited by the management of the Varna Drama Theatre 'Stoyan Bachvarov', where he continues to perform to this day. From 2004 to 2007, he was the director of the theatrical formation 'Who Am I' at the association 'Eurointegration', where he directed the plays 'This Love' based on 'Dragon's Wedding' by Petko Y. Todorov and 'We Sparrows' by Yordan Radichkov, among others.",
     "founders_p_three": "When in 2009 some of the actors from the theatrical formation 'Who Am I' created the theatrical formation 'Phoenix', he was invited as an artistic director and director. He has been working with the actors to this day. With the theatrical formation 'Phoenix', he has realized 11 plays and two documentary films.",
+    "founder_img_alt": "photo founder Svilen Stoyanov",
+
+    "projects_heading": "Completed Projects",
 
     "project_one": "Project “Shared Responsibility for Active Citizenship”;",
     "project_one_time": "Implementation period: October 2010 to December 2011;",
@@ -265,5 +269,12 @@
     "project_fifteen": "Project: “Theatrical Formation PHOENIX - Reloaded”;",
     "project_fifteen_time": "Implementation period: November 01, 2022, to October 31, 2023;",
     "project_fifteen_finance_by": "Funding source: Sofia Municipality, National Culture Fund, under the program for the recovery and development of organizations in the field of amateur creativity.",
-    "projects_heading": "Completed Projects"
+
+    "municipality_of_varna": "Varna municipality",
+    "vum_varna": "Varna University of Management",
+    "fond_kultura_varna": "Fond Kultura",
+    "municipality_of_varna_logo": "Varna municipality logo",
+    "vum_varna_logo": "Varna University of Management logo",
+    "fond_kultura_varna_logo": "Fond Kultura logo"
+
 }
