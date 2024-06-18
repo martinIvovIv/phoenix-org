@@ -15,9 +15,6 @@ export const Navbar = async () => {
   return (
     <header className="bg-fg w-full border-b">
       <div className="container flex h-16 items-center justify-between">
-        {/* <Link href={HOME_PATH} className="font-mono text-lg font-bold">
-          {m.app_name()}
-        </Link> */}
         <div className="flex flex-row items-center  gap-2 text-base font-bold leading-relaxed  tracking-tight  sm:gap-3 md:gap-5 md:text-lg lg:gap-7 lg:text-xl">
           <Link
             className="hidden hover:underline sm:inline-block"

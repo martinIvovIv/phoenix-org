@@ -19,7 +19,7 @@ const Founders = () => {
           src="/SvStoyanov.jpg"
           width={256}
           height={320}
-          alt={'portrait Svilen Stoyanov'}
+          alt={m.founder_img_alt()}
           priority={true}
         />
       </TextBox>
