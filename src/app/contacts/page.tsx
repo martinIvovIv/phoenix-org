@@ -30,18 +30,34 @@ const Contacts = () => {
           <p>{m.contect_us_page_email_one()}</p>
         </div>
       </TextBox>
-      <TextBox>
-        <div className="flex flex-row gap-2 md:gap-3">
+      <TextBox className="flex flex-col gap-2 text-wrap">
+        <div className="flex flex-col sm:flex-row sm:gap-2 md:gap-3">
           <div className="flex gap-2">
             <Icons.facebook className="size-6" />
             <h2 className="font-bold">{m.contect_us_page_facebook()}</h2>
           </div>
           <Link
-            href={'https://www.facebook.com/sfeniks'}
+            href={
+              'https://www.facebook.com/p/Театрална-формация-Феникс-100064725641328/'
+            }
             target="_blank"
             className="overflow-auto break-words underline underline-offset-4"
           >
             <p>{m.contect_us_page_facebook_one()}</p>
+          </Link>
+        </div>
+
+        <div className="flex flex-col sm:flex-row sm:gap-2 md:gap-3">
+          <div className="flex gap-2">
+            <Icons.facebook className="size-6" />
+            <h2 className="font-bold">{m.contect_us_page_facebook_junior()}</h2>
+          </div>
+          <Link
+            href={'https://www.facebook.com/fenixJunior/'}
+            target="_blank"
+            className="overflow-auto break-words underline underline-offset-4"
+          >
+            <p>{m.contect_us_page_facebook_two()}</p>
           </Link>
         </div>
       </TextBox>
