@@ -19,7 +19,7 @@ export const Navbar = async () => {
   return (
     <header className="bg-fg w-full border-b">
       <div className="container flex h-16 items-center justify-between">
-        <div className="flex flex-row items-center  gap-1.5 text-base font-bold leading-relaxed  tracking-tight  sm:gap-3 md:gap-4 md:text-lg lg:gap-7 lg:text-xl">
+        <div className="flex flex-row items-center  gap-1.5 text-base font-bold leading-relaxed sm:gap-3 sm:tracking-tighter  md:gap-4 md:text-lg md:tracking-tight lg:gap-7 lg:text-xl">
           <Image
             src="/favicon/android-chrome-192x192.png"
             height={55}
