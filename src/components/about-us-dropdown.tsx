@@ -21,7 +21,7 @@ export const AboutUsDropDown = ({ className }: { className?: string }) => {
         <DropdownMenu.Trigger asChild>
           <Link
             href={ABOUT_MISSION}
-            className="hidden hover:underline sm:inline-block"
+            className="hidden whitespace-nowrap hover:underline sm:inline-block"
           >
             {m.og_nav_about_us()}
           </Link>
