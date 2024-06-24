@@ -20,14 +20,16 @@ export const Navbar = async () => {
     <header className="bg-fg w-full border-b">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex flex-row items-center  gap-1.5 text-base font-bold leading-relaxed sm:gap-3 sm:tracking-tighter  md:gap-4 md:text-lg md:tracking-tight lg:gap-7 lg:text-xl">
-          <Image
-            src="/favicon/android-chrome-192x192.png"
-            height={55}
-            width={55}
-            className="size-[55] object-contain"
-            alt={m.fenix_logo_alt()}
-            priority={true}
-          />
+          <Link href={HOME_PATH}>
+            <Image
+              src="/favicon/android-chrome-192x192.png"
+              height={55}
+              width={55}
+              className="size-[55] object-contain"
+              alt={m.fenix_logo_alt()}
+              priority={true}
+            />
+          </Link>
 
           <div className="hidden flex-row items-center hover:underline sm:inline-flex sm:gap-0.5 md:gap-1 lg:gap-2">
             <Icons.home className="size-4" aria-hidden={true} />
